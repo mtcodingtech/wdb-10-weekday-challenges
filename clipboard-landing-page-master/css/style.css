@@ -96,13 +96,15 @@ p {
 .desktop-section {
   display: flex;
   align-items: center;
-  gap: 4rem;
 }
-.desktop-section img {
-  flex-basis: 40%;
+.desktop-section .img-container {
+  flex-basis: 70%;
+}
+.desktop-section .img-container img {
+  width: 100%;
   height: auto;
   transform: translateX(-6rem);
 }
 .desktop-section .content-container {
-  flex-basis: 40%;
+  flex-basis: 50%;
 }/*# sourceMappingURL=style.css.map */
