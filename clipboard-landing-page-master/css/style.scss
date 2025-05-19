@@ -31,14 +31,14 @@ p {
 }
 .hero-section {
   min-height: 100vh;
-  background-image: url("/images/bg-header-mobile.png");
+  background-image: url("../images/bg-header-mobile.png");
   background-repeat: no-repeat;
   background-size: contain;
   display: grid;
   place-items: center;
 
   @media (min-width: $Responsive-width) {
-    background-image: url("/images/bg-header-desktop.png");
+    background-image: url("../images/bg-header-desktop.png");
   }
   .hero-container {
     max-width: 500px;
@@ -51,7 +51,7 @@ p {
       width: 80px;
     }
     h2 {
-      margin: 2rem 0 1rem;
+      margin: 2rem 0 0.8rem;
       font-size: 2rem;
     }
     p {
@@ -82,6 +82,49 @@ p {
           background-color: $Blue-100;
         }
       }
+    }
+    .snippets {
+      margin-top:  4rem;
+      h3 {
+        font-size: 1.6rem;
+        margin:0.8rem 0 ;
+
+      }
+      p {
+      }
+
+    }
+
+  }
+}
+.desktop-section{
+  display: flex;
+  
+  align-items: center;
+  gap: 4rem;
+
+
+
+  img{
+
+    flex-basis: 40%;
+// width: 60%;
+height: auto;
+transform: translateX(-6rem);
+
+  }
+  .content-container{
+  flex-basis: 40%;
+    .desktop-content{
+    
+h4{
+
+
+}
+p{
+
+}
+
     }
   }
 }
